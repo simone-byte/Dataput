@@ -111,6 +111,10 @@ module.exports = class{
     return JSON.parse(fs.readFileSync(this.path));
   }
 
+  get rowsNumber(){
+    return JSON.parse(fs.readFileSync(this.path).toString()).data.body.length;
+  }
+
   static get AI(){
     return AI;
   }
