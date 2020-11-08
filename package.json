@@ -1,0 +1,24 @@
+{
+  "name": "dataput",
+  "version": "1.0.8",
+  "description": "JSON Database with files",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/simone-byte/Dataput"
+  },
+  "keywords": [
+    "database",
+    "json",
+    "objects",
+    "files"
+  ],
+  "author": "Simone Fracassetti",
+  "license": "MIT",
+  "dependencies": {
+    "fs": "^0.0.1-security"
+  }
+}
